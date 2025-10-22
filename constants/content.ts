@@ -3,7 +3,7 @@ import {
     BrainIcon, HeartIcon, UsersIcon, PhoneIcon, BookOpenIcon, 
     RocketLaunchIcon, ShieldCheckIcon, BeakerIcon, ClipboardDocumentCheckIcon, 
     IdentificationIcon, TrendingUpIcon, CoffeeIcon, MoonIcon, AlertCircleIcon, 
-    ZapIcon, SparklesIcon, CheckCircleIcon
+    ZapIcon, SparklesIcon, CheckCircleIcon, TrophyIcon
 } from './icons';
 
 import Dashboard from '../components/pages/Dashboard';
@@ -11,6 +11,7 @@ import MorningRoutine from '../components/pages/MorningRoutine';
 import EveningRoutine from '../components/pages/EveningRoutine';
 import EmergencyTool from '../components/pages/EmergencyTool';
 import AffirmationsLibrary from '../components/pages/AffirmationsLibrary';
+import SuccessLog from '../components/pages/SuccessLog';
 
 export const sections: Section[] = [
   // Group: Daily Tools
@@ -34,6 +35,13 @@ export const sections: Section[] = [
     icon: MoonIcon,
     group: '매일의 도구',
     component: EveningRoutine,
+  },
+  {
+    id: 'success-log',
+    title: '성공 일지',
+    icon: TrophyIcon,
+    group: '매일의 도구',
+    component: SuccessLog,
   },
   
   // Group: Emergency Kit
