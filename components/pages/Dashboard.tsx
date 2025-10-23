@@ -37,6 +37,15 @@ const Dashboard: React.FC<DashboardProps> = ({
   
   return (
     <div className="space-y-6">
+      <div className="bg-white rounded-lg p-6 shadow-md border-l-4 border-sky-500">
+        <h3 className="text-lg font-bold text-slate-800 mb-3">나의 세계는 나를 보살펴준다</h3>
+        <div className="text-slate-600 space-y-3 italic leading-relaxed">
+          <p>"나의 세계는 나를 위해 가장 좋은 것만을 골라준다. 나는 가능태 흐름을 타고 나아가고, 세상은 스스로 다가와서 나를 맞이한다."</p>
+          <p>"나는 의도를 사용하여 스스로 내 세계의 층을 창조한다. 나의 세계는 나를 보호해준다. 나의 세계는 나를 문제로부터 해방시켜준다. 나의 세계는 내가 안락하게 살 수 있도록 보살펴준다."</p>
+          <p>"내가 주문하면 세상은 그것을 이루어준다. 나는 몰라도 세상은 나를 어떻게 보살펴야 할지를 알고 있다. 나의 의도는 실현되고, 모든 것은 그 의도를 향해 나아가며, 모든 일은 필요에 따라 알맞게 일어난다."</p>
+        </div>
+      </div>
+
       <div className="bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg p-6 text-white shadow-lg">
         <h2 className="text-2xl font-bold mb-2">오늘도 흐름을 타고 있습니다</h2>
         <p className="text-blue-100">세상은 당신을 보살펴주고 있습니다</p>
